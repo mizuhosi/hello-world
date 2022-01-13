@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
+    - name: compile
       run: cc -c hoge.c -o hoge.o
+    - name: check
+      run: ls
 
