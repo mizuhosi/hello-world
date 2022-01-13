@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: cc -c hoge.c -0 hoge.o
+      run: cc -c hoge.c -o hoge.o
 
